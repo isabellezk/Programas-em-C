@@ -1,4 +1,4 @@
-/*QUESTÃO 03
+/*
 Fazer uma função que determine o maior elemento presente em um vetor de inteiros.*/
 
 #include <stdio.h>
