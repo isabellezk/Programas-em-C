@@ -1,0 +1,43 @@
+/*QUESTÃO 04:
+A função logarítmica é complementar à
+potenciação. Ou seja, uma vez que 3
+4 = 81,
+podemos então afirmar que log381 = 4.
+Generalizando, temos que:
+baseexpoente = pot  logbasepot = expoente
+Com base nessa descrição, pede-se o
+desenvolvimento de uma função que, dados a e
+b, calcule o valor de logab.
+Nota: a sua solução deverá apresentar um valor
+inteiro que, na verdade, será a solução aproximada
+do logaritmo.*/
+
+#include <stdio.h>
+
+int logaritmo(int a, int b)
+{
+    int potencia = 1, expoente = 0;
+
+    while (potencia < b)
+    {
+        potencia *= a;
+        expoente++;
+    }
+
+    return expoente;
+}
+
+int main()
+{
+    int a, b, resul;
+
+    printf ("entre com dois valores: ");
+    scanf ("%d %d", &a, &b);
+
+    resul = logaritmo(a, b);
+
+    printf ("\n\nresultado: %d", resul);
+}
+
+
+
