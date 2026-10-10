@@ -1,5 +1,4 @@
-/*QUESTÃO 05:
-Fazer uma função que exiba a tabuada de
+/*Fazer uma função que exiba a tabuada de
 potências de um número n, no intervalo de 1 a
 9. Se o número não estiver neste intervalo, o
 código 0 deve ser retornado; caso contrário,
