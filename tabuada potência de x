@@ -1,0 +1,45 @@
+/*QUESTÃO 05:
+Fazer uma função que exiba a tabuada de
+potências de um número n, no intervalo de 1 a
+9. Se o número não estiver neste intervalo, o
+código 0 deve ser retornado; caso contrário,
+retorna-se 1.*/
+
+#include <stdio.h>
+
+int tabuada(int n)
+{
+    int i, j, potencia;
+
+    if ((n < 1) || (n > 9))
+    {
+        return 0;
+    }
+    else{
+        for (i=0; i<= 9; i++)
+        {
+            potencia = 1;
+
+            for (j=0; j < i; j++)
+            {
+                potencia *= n;
+            }
+            printf ("%d ^ %d = %d", n, i, potencia);
+            printf ("\n");
+        }
+        return 1;
+    }
+}
+
+
+void main()
+{
+    int n;
+
+    printf ("digite o valor de n: ");
+    scanf ("%d", &n);
+
+    tabuada(n);
+}
+
+
