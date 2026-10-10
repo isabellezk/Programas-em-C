@@ -1,5 +1,4 @@
-/*QUESTÃO 04:
-A função logarítmica é complementar à
+/*A função logarítmica é complementar à
 potenciação. Ou seja, uma vez que 3
 4 = 81,
 podemos então afirmar que log381 = 4.
