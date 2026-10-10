@@ -1,7 +1,7 @@
 /*O IMC (Índice de Massa Corporal) é um critéro da Organização Mundial de Saúde
 para dar uma indicação sobre a condição de peso de uma pessoa adulta. A fórmula é: IMC = peso / altura2
 Elabore um algoritmo que, dados o peso e a altura de um adulto, determine a sua condição
-de acordo com a tabela abaixo:
+de acordo com a tabela abaixo:*/
 
 #include <stdio.h>
 
